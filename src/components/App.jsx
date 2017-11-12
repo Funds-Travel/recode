@@ -12,14 +12,14 @@ class App extends Component {
     return (
       <div className="App">
         <Provider store={store}>
-        <Router history={browserHistory}>
-           <Route exact path="/welcome" component={Home} />
-           <Route exact path="/splash" component={Splash} />
-        </Router>
-      </Provider>
+          <Router history={browserHistory}>
+            <Route exact path="/welcome" component={Home} />
+            <Route exact path="/splash" component={Splash} />
+          </Router>
+        </Provider>
       </div>
     )
-  }
+  };
 }
 
 export default App;
